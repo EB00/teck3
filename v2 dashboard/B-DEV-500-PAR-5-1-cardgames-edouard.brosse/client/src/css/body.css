@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;*/
+    /*align-content: stretch;*/
+    /*flex-direction: row;*/
+    /*justify-content: left;*/
+    /*content: 'stretch';*/
+}
+
+body {
+    height: 100%;
+    display: flex;
+    /*align-items: center;*/
+    /*background-color: grey;*/
+    background: grey;
+}
+
+h1 {
+    color: #000;
+    font-size: 3rem;
+    font-weight: 50;
+    text-align: center;
+    margin: 1rem 0 3rem;
+    font-family: 'Hind', sans-serif;
+}
+
+.first {
+    /*display: block;*/
+    margin-top: 60px;
+}
+
+.txt {
+    padding-top: 40px;
+    top: 50px;
+    margin: 2%;
+    font: arial;
+    font-size: 1.2em;
+}
+
+#body {
+    margin-top:60px;
+}
+
+ #display_body {
+    display: block;
+    content: 'stretch';
+ }
+
+.Pos{
+    /*align-content: stretch;*/
+    /*flex-direction: row;*/
+    /*justify-content: left;*/
+    /*content: 'stretch';*/
+    display: grid;
+    align-content: stretch;
+    grid-template-columns: auto auto auto;
+    /*background-color: #2196F3;*/
+    padding: 10px;
+}
+
+.HomeDiv {
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    /*padding: 20px;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.Dhomme {
+    align-items: center;
+}
+
+.editButton {
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
+    /*font-family: 'Hind' sans-serif;*/
+    /*background: none;*/
+    /*outline: none;*/
+    /*color: greenyellow;*/
+    /*border: none;*/
+}

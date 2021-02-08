@@ -1,0 +1,29 @@
+{
+    "client": {
+        "host": "127.0.0.1"
+    },
+    "server": {
+        "current_time": 1573738344,
+        "services": [{
+            "name": "weather",
+            "widgets": [{
+                "name": "weatherWidget",
+                "description": "Display temperature for a city with small description.",
+                "params": [{
+                    "name": "cityWeather",
+                    "type": "string"
+                }]
+            }]
+        }, {
+            "name": "youtube",
+            "widgets": [{
+                "name": "loadVideo",
+                "description": "Load video by Id.",
+                "params": [{
+                    "name": "videoId",
+                    "type": "string"
+                }]
+            }]
+        }]
+    }
+}

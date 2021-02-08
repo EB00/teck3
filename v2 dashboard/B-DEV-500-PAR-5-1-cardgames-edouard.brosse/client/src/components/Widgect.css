@@ -1,0 +1,15 @@
+#MainContainer {
+    background: red;
+    color: yellow;
+    /*height:  190;*/
+    /*flex-direction: column;*/
+}
+
+section {
+    background: #000000;;
+    color: white;
+    width: 350px;
+    height: 400px;
+    /*display: block;*/
+    /*margin: 10px;*/
+}

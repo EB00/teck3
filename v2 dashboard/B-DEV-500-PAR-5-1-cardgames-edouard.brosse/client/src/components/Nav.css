@@ -1,0 +1,41 @@
+.NavCont {
+    display: block;
+}
+
+.Nav {
+    padding: min(50px, 0%);
+    background-color: black;
+}
+
+.Right {
+    display: inline;
+    width: 100%;
+}
+
+.link {
+    color: black;
+    margin: 1%;
+} 
+
+
+#navbar {
+    background-color: black;
+    background: rgb(30, 29, 36);
+    /*padding: 10px 10px;*/
+    position: fixed;
+    width:  100%;
+    top: 0;
+}
+
+#navbar a {
+    color: red;
+    float: left;
+    font-size: 18px;
+    /*line-height:  25px;*/
+    border-radius:  4px;
+}
+
+#navbar-right {
+    float: right;
+    margin: 1%;
+}
